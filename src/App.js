@@ -3,6 +3,8 @@ import Counter from "./Counter";
 import Info from "./Info";
 import Average from "./Average";
 import SassComponent from "./SassComponent";
+import CSSModule from "./CSSModule";
+import StyledComponent from "./StyledComponent";
 
 const App = () => {
   // const [visible, setVisible] = useState(false);
@@ -24,7 +26,9 @@ const App = () => {
   // return <Average />;
   return (
     <div>
-      <SassComponent />
+      {/* <SassComponent /> */}
+      {/* <CSSModule /> */}
+      <StyledComponent />
     </div>
   );
 };
